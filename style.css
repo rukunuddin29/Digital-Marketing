@@ -234,6 +234,9 @@ top: 70rem;
         margin: 0rem 4rem ;
         
     }
+    .aboutImg2{
+        opacity: 0;
+    }
     .about{
         width: 5rem;
         font-size: 1rem;
@@ -253,4 +256,39 @@ top: 70rem;
       width: 15rem;
       margin: 21rem 2rem;
     }
+}
+
+/* ............footer.......
+ */
+ .aboutImg2{
+    opacity: 0;
+ }
+ .list{
+    color: white;
+ }
+ @media screen and (min-width:600px){
+  
+ }
+ .list{
+    color: white;
+    width: 100%;
+    height: 30rem;
+    border: 2px solid white ;
+    margin-bottom: 0px;
+    background-image:url('https://media.istockphoto.com/id/1303182525/photo/abstract-background-white-light-blue-purple-color-gradient-defocused.jpg?s=2048x2048&w=is&k=20&c=3A8sUASxW7jVIfFUSEhi5Bb5AcPWPWECExDnI4UMidY=') ;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    border-bottom: 4px solid rgba(66, 50, 70, 0.351);
+  
+}
+.list a {
+color: black ;
+display: flex;margin: 2rem 40%;
+
+}
+.list a:hover{
+    color: blueviolet;
+    font-size: 1.33rem;
 }
